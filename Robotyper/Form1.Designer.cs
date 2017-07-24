@@ -37,6 +37,7 @@
             this.materialRaisedButton3 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.labelStatus = new MaterialSkin.Controls.MaterialLabel();
             this.typingProgress = new MaterialSkin.Controls.MaterialProgressBar();
+            this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
             this.SuspendLayout();
             // 
             // textEditorControl1
@@ -157,11 +158,30 @@
             this.typingProgress.Size = new System.Drawing.Size(248, 5);
             this.typingProgress.TabIndex = 7;
             // 
+            // materialFlatButton1
+            // 
+            this.materialFlatButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialFlatButton1.AutoSize = true;
+            this.materialFlatButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialFlatButton1.Depth = 0;
+            this.materialFlatButton1.Icon = null;
+            this.materialFlatButton1.Location = new System.Drawing.Point(758, 76);
+            this.materialFlatButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialFlatButton1.Name = "materialFlatButton1";
+            this.materialFlatButton1.Primary = false;
+            this.materialFlatButton1.Size = new System.Drawing.Size(139, 36);
+            this.materialFlatButton1.TabIndex = 8;
+            this.materialFlatButton1.Text = "Visit repository";
+            this.materialFlatButton1.UseVisualStyleBackColor = true;
+            this.materialFlatButton1.Click += new System.EventHandler(this.materialFlatButton1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1001, 668);
+            this.Controls.Add(this.materialFlatButton1);
             this.Controls.Add(this.typingProgress);
             this.Controls.Add(this.labelStatus);
             this.Controls.Add(this.materialRaisedButton3);
@@ -189,6 +209,7 @@
         private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton3;
         private MaterialSkin.Controls.MaterialLabel labelStatus;
         private MaterialSkin.Controls.MaterialProgressBar typingProgress;
+        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
     }
 }
 

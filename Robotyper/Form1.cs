@@ -13,6 +13,7 @@ using MaterialSkin.Controls;
 using WindowsInput;
 using System.Threading;
 using System.Text.RegularExpressions;
+using System.Diagnostics;
 
 namespace Robotyper
 {
@@ -153,6 +154,13 @@ namespace Robotyper
                 t.Minutes,
                 t.Seconds,
                 t.Milliseconds
+            );
+        }
+
+        private void materialFlatButton1_Click(object sender, EventArgs e)
+        { 
+            Process.Start(
+                new ProcessStartInfo("https://github.com/ourcodeworld/robotyper")
             );
         }
     }

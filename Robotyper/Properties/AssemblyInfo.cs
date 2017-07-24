@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Robotyper")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Robotyper is an automatic typer desktop application written in C# (Winforms) that writes some text for you simulating keyboard events.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Our Code World")]
 [assembly: AssemblyProduct("Robotyper")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCopyright("Copyright Our Code World  ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
